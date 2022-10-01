@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+footer {
+   min-height: 600px;
+    background-color:rgba(148, 108, 224, 0.809);
+    width: 100%;
+}
+footer .contact{
+    
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(148, 108, 224, 0.809); */
+}
+.contact .anchor{
+    display: flex;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+    
+    color: white;
+    border: 1px solid  black;
+    box-shadow: 0 0 10px black;
+}
+.contact .anchor img{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+   
+}
+.footer2 {
+  min-height: 400px;
+   width: 100%;
+   background-color: rgba(148, 108, 224, 0.809);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   box-shadow:0 0px 1px black;
+   
+}
+.footer2 ul{
+    padding:20px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    height: 250px;
+    margin:20px 0px ;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    
+}
+.footer2 ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+}
+.footer2 ul li{
+    list-style: none;
+    
+}
+.footer2 ul li a:hover{
+    text-shadow: 0 0 10px black;
+    color:black;
+}
+
+.footer1{
+    height: 100px;
+    box-shadow:0 0  1px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(148, 108, 224, 0.609);
+    
+}
+.footer1 .indian{
+    height: 30px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    margin: auto;
+}
+.footer1 .indian select,option{
+    background-color: transparent;
+    border: 2px solid transparent;
+    height: 100%;
+   
+    width: 100%;
+}
+.footer1 .indian:hover{
+   cursor: pointer;
+ 
+}
+.contact .anchor:hover{
+    box-shadow: 0 0 15px black;
+    border: 2px solid black;
+}
+
+
+.footer1 .ourlogo {
+    height: 40px;
+    width: 50px;
+}
+.footer1 .ourlogo img{
+    height: 100%;
+}
+
+.slide{
+    height: 300px;
+    /* background-color: rgba(107, 65, 186, 0.809); */
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.slide .product{
+    height: 200px;
+    /* border-radius: 200px; */
+    width: 200px;
+}
+.slide .product .offer{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    background-color: rgba(194, 8, 8, 0.812);
+    z-index: 23847;
+    position: relative;
+    top: -10%;
+    left: 0%;
+    text-align: center;
+    color: yellow;
+}
+.slide .product img{
+    height: 80%;
+    width: 80%;
+    border-radius: 80%;
+    z-index: 0;
+}
+
+.container{
+    margin-top:40px ;
+  min-height: 1000px;
+   position: absolute;
+    width: 90%;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:40px auto;
+    display: none;
+    
+    z-index: 233244;
+    border-radius: 5px;
+    box-shadow: 0 0 15px blueviolet;
+    
+
+}
+
+.container .boxing{
+    height: 300px;
+    width: 300px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 0 5px white;
+}
+.container .boxing img{
+    height: 50%;
+    border-radius: 4px;
+}
+.body{
+    
+    z-index: -2;
+   
+}
+.container .boxing:hover{
+box-shadow: 0 0 15px white;
+transition: all .2s ease-in-out;
+}
+
+.container #close{
+    border-radius: 3px;
+    
+     position: relative;
+     left: 100%-5vw;
+     transform: translateX(-36px);
+     
+     top: -138px;
+     z-index: 233244;
+    box-shadow: 0 0 15px black;
+}
+@media (max-width:1200px) {
+    .container #close{
+        transform: translateX(-90px);
+    }
+}
+@media (max-width:1000px) {
+    .container #close{
+        transform: translateX(-160px);
+    }
+}
+@media (max-width:762px) {
+    .container #close{
+        transform: translateX(-56px);
+    }
+}
+
